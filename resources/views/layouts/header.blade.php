@@ -3,10 +3,10 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>AL-HIBAQ Technovier</title>
+	<title>Technoviers</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Favicon-->
-	<link rel="icon" href="{{url('img/titleicon.png')}}" type="image/jpg" />
+	<link rel="icon" href="{{url('img/titleicon.png')}}" type="image/png" />
 	<!-- google fonts -->
 
 	<!-- Css link -->
@@ -40,7 +40,7 @@
 
 				<!-- logo -->
 				<h1 class="navbar-brand">
-					<a href="#body"><img src="img/logo.png" height="60" width="164" alt=""></a>
+					<a href="#body"><img src="#" height="60" width="164" alt=""></a>
 				</h1>
 				<!-- /logo -->
 			</div>
