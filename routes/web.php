@@ -11,7 +11,7 @@ use App\Http\Controllers\homeController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/home','homeController@index')->name('home');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/','homeController@index')->name('home');
