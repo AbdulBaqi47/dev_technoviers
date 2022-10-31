@@ -1,11 +1,11 @@
 <h1>HOW TO RUN </h1>
 <p>
-1# run composer update
-2# copy env.example to .env and name database
-3# run php artisan key:generate
-4# run php artisan migrate
-5# php artisan serve
-6# php artisan storage:link
+1# run composer update  <br>
+2# copy env.example to .env and name database <br>
+3# run php artisan key:generate <br>
+4# run php artisan migrate <br>
+5# php artisan serve <br>
+6# php artisan storage:link <br>
 </p>
 
 
