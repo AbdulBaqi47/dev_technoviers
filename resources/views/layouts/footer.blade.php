@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <a href="#"><img src="{{url('img/logo.png')}}"  height="60" width="225"  alt=""></a>
-                    <p>All rights reserved © 2015</p>
+                    <a href="#"><img src="{{url('img/logo.png')}}"  height="80" width="250"  alt=""></a>
+                    <p>All rights reserved © 2023</p>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@
                         <div class="block">
                             <h1>YOUR DIGITAL BUSINESS IS ONE CLICK FAR</h1>
                             <h2>E-COMMERCE / WEB DESIGN / BRANDING<br>
-                                Let’s get rid of the complicated<br>
+                                Let's get rid of the complicated<br>
                                 so you can start selling faster</h2>
                             <div class="buttons">
                                 <a href="#" class="btn btn-learn">Purchase Now</a>
@@ -54,9 +54,9 @@
                                 <i class="ion-paintbucket"></i>
                             </div>
                             <h4 class="wow fadeInUp" data-wow-delay=".3s">Outstanding Animation</h4>
-                            <p class="wow fadeInUp" data-wow-delay=".5s">“Nothing’s occurring in animation<br>
-                                 – you manufacture everything.”<br>
-                                <b> – Gore Verbinski </b></p>
+                            <p class="wow fadeInUp" data-wow-delay=".5s">“Nothing's occurring in animation<br>
+                                 - you manufacture everything.”<br>
+                                <b> - Gore Verbinski </b></p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-6">
@@ -231,7 +231,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6">
                         <div class="block wow fadeInLeft" data-wow-delay=".3s">
-                            <img src="img/_ABK.jpg" alt="">
+                            <img src="img/ABK.jpg" alt="">
                             <div class="team-overlay">
                                 <h3>Mr.Abdul Baqi <span>Product Designer</span></h3>
                                 <span class="icon"><i class="ion-quote"></i></span>
@@ -628,9 +628,10 @@
                     </div>
                     <div class="col-md-6 col">
                         <!-- map -->
-                        <div class="map">
-                            <div id="googleMap"></div>
-                        </div>
+                        {{-- <div class="map">
+                            <div id="googleMap-"></div>
+                        </div> --}}
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=lahore&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
                         <!--/map-->
 
                     </div>

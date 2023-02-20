@@ -156,15 +156,15 @@ a:active {
  *===================*/
 /* header style */
 header {
-  padding: 20px 0;
-  background: #fff;
+  padding: 0;
+  background: rgb(0, 0, 0);
 }
 header .navbar {
   height: auto;
   margin-bottom: 0;
 }
 .is-sticky #navigation {
-  background: #fff;
+  background: rgb(0, 0, 0);
   z-index: 1000;
   transition: 0.3s;
   width: 100%;
@@ -189,7 +189,7 @@ header .navbar {
   background: #3988b7;
 }
 .menu a {
-  color: #333;
+  color: rgb(146, 144, 144);
   transition: 0.3s;
   position: relative;
   font-size: 16px;
@@ -863,7 +863,7 @@ header .navbar {
   transform: scale(1.2);
 }
 footer {
-  background: #202322;
+  background: #080808;
   padding: 42px 0 65px 0;
   text-align: center;
 }
