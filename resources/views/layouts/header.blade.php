@@ -22,8 +22,14 @@
 	<link rel="stylesheet" href="{{url('css/icon.css')}}">
 	<link rel="stylesheet" href="{{url('css/style.css')}}">
 	<link rel="stylesheet" href="{{url('css/responsive.css')}}">
-
+    <style>
+        #logo-image{
+        height: 80px;
+        width: 200px;
+    }
+    </style>
 </head>
+
 
 <body id="top">
 	<header id="navigation" class="navbar-fixed-top animated-header">
@@ -40,7 +46,7 @@
 
 				<!-- logo -->
 				<h1 class="navbar-brand">
-					<a href="#body"><img src="#" height="60" width="164" alt=""></a>
+					<a href="#body"><img src="{{url('img/logo.png')}}" id="logo-image" alt=""></a>
 				</h1>
 				<!-- /logo -->
 			</div>

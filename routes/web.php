@@ -15,3 +15,8 @@ use App\Http\Controllers\homeController;
 //     return view('welcome');
 // });
 Route::get('/','homeController@index')->name('home');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
