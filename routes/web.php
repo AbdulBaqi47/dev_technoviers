@@ -10,13 +10,15 @@ use App\Http\Controllers\homeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/','homeController@index')->name('home');
-
-
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
+Route::get('/', function () {
+    return view('welcome');
 });
+// Route::get('/','homeController@index')->name('home');
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin_dashboard', 'Admin\DashboardController@index')->middleware('role:admin');
+Route::get('/techie_dashboard', 'Techie\DashboardController@index')->middleware('role:techie');

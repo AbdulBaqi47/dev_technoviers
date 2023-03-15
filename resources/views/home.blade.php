@@ -1,7 +1,6 @@
 @extends('layouts.main')
 @section('main-section')
     <div class="wrapper">
-
         <section id="banner">
             <div class="container">
                 <div class="row">
@@ -374,8 +373,7 @@
                 </div>
             </div>
         </section>
-
-        <section id="blog">
+        {{-- <section id="blog">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -471,11 +469,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-
-
-
+        </section> --}}
         <section id="testimonial">
             <div class="container">
                 <div class="row">
@@ -646,4 +640,5 @@
                 </div>
             </div>
         </section>
-    @endsection
+    </div>
+@endsection
