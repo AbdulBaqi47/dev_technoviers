@@ -252,7 +252,7 @@
 							<a href="#" class="kt-link kt-font-brand">Contact</a>
 						</div>
 						<div class="kt-login-v2__info">
-							<a href="#" class="kt-link">&copy; 2018 KeenThemes</a>
+							<a href="#" class="kt-link">&copy; 2022 Technoviers</a>
 						</div>
 					</div>
 				</div>
