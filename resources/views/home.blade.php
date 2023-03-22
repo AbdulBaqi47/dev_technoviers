@@ -18,9 +18,9 @@
                     </div>
                 </div>
             </div>
-            <div class="scrolldown">
+            {{-- <div class="scrolldown">
                 <a id="scroll" href="#features" class="scroll"></a>
-            </div>
+            </div> --}}
         </section>
         <section id="features">
             <div class="container">
