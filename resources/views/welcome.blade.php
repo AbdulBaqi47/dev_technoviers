@@ -11,8 +11,8 @@
                                 Let's get rid of the complicated<br>
                                 so you can start selling faster</h2>
                             <div class="buttons">
-                                <a href="#" class="btn btn-learn">Purchase Now</a>
-                                <a href="#" class="btn btn-learn">View Featurese</a>
+                                <a href="{{route('apply_as_techie')}}" class="btn btn-learn">Apply As Remote Developer</a>
+                                {{-- <a href="#" class="btn btn-learn">View Featurese</a> --}}
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@
                 </div>
             </div>
         </section>
-        <section id="play-video">
+        {{-- <section id="play-video">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -219,7 +219,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <section id="team">
             <div class="container">
                 <div class="row">
@@ -373,7 +373,7 @@
                 </div>
             </div>
         </section> --}}
-        <section id="blog">
+        {{-- <section id="blog">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -388,14 +388,14 @@
                                 <div class="block">
                                     <img src="img/blog/blog-1.jpg" alt="" class="img-responsive">
                                     <div class="content">
-                                        <h4><a href="blog.html">Hey,This is a blog title</a></h4>
+                                        <h4><a href="blog">Hey,This is a blog title</a></h4>
                                         <small>By admin / Sept 18, 2014</small>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque
                                             repudiandae nihil
                                             qui debitis atque necessitatibus aliquam, consequuntur autem!
                                         </p>
-                                        <a href="blog.html" class="btn btn-read">Read More</a>
+                                        <a href="blog" class="btn btn-read">Read More</a>
 
                                     </div>
                                 </div>
@@ -404,14 +404,14 @@
                                 <div class="block">
                                     <img src="img/blog/blog-2.jpg" alt="" class="img-responsive">
                                     <div class="content">
-                                        <h4><a href="blog.html">Hey,This is a blog title</a></h4>
+                                        <h4><a href="blog">Hey,This is a blog title</a></h4>
                                         <small>By admin / Sept 18, 2014</small>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque
                                             repudiandae nihil
                                             qui debitis atque necessitatibus aliquam, consequuntur autem!
                                         </p>
-                                        <a href="blog.html" class="btn btn-read">Read More</a>
+                                        <a href="blog" class="btn btn-read">Read More</a>
 
                                     </div>
                                 </div>
@@ -420,14 +420,14 @@
                                 <div class="block">
                                     <img src="img/blog/blog-3.jpg" alt="" class="img-responsive">
                                     <div class="content">
-                                        <h4><a href="blog.html">Hey,This is a blog title</a></h4>
+                                        <h4><a href="blog">Hey,This is a blog title</a></h4>
                                         <small>By admin / Sept 18, 2014</small>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque
                                             repudiandae nihil
                                             qui debitis atque necessitatibus aliquam, consequuntur autem!
                                         </p>
-                                        <a href="blog.html" class="btn btn-read">Read More</a>
+                                        <a href="blog" class="btn btn-read">Read More</a>
 
                                     </div>
                                 </div>
@@ -436,14 +436,14 @@
                                 <div class="block">
                                     <img src="img/blog/blog-4.jpg" alt="" class="img-responsive">
                                     <div class="content">
-                                        <h4><a href="blog.html">Hey,This is a blog title</a></h4>
+                                        <h4><a href="blog">Hey,This is a blog title</a></h4>
                                         <small>By admin / Sept 18, 2014</small>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque
                                             repudiandae nihil
                                             qui debitis atque necessitatibus aliquam, consequuntur autem!
                                         </p>
-                                        <a href="blog.html" class="btn btn-read">Read More</a>
+                                        <a href="blog" class="btn btn-read">Read More</a>
 
                                     </div>
                                 </div>
@@ -452,14 +452,14 @@
                                 <div class="block">
                                     <img src="img/blog/blog-1.jpg" alt="" class="img-responsive">
                                     <div class="content">
-                                        <h4><a href="blog.html">Hey,This is a blog title</a></h4>
+                                        <h4><a href="blog">Hey,This is a blog title</a></h4>
                                         <small>By admin / Sept 18, 2014</small>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque
                                             repudiandae nihil
                                             qui debitis atque necessitatibus aliquam, consequuntur autem!
                                         </p>
-                                        <a href="blog.html" class="btn btn-read">Read More</a>
+                                        <a href="blog" class="btn btn-read">Read More</a>
 
                                     </div>
                                 </div>
@@ -469,8 +469,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        {{-- <section id="testimonial">
+        </section> --}}
+        <section id="testimonial">
             <div class="container">
                 <div class="row">
                     <div class="title">
@@ -551,7 +551,7 @@
                     </div>
                 </div>
             </div>
-        </section> --}}
+        </section>
         <section id="client-logo">
             <div class="container">
                 <div class="row">
@@ -612,33 +612,6 @@
                 </div>
             </div>
         </section>
-        <section id="contact-form">
-            <div class="container">
-                <div class="row">
-                    <div class="title">
-                        <h2>CONTACT US</h2>
-                        <p>Dantes remained confused and silent by this explanation of the <br> thoughts which had
-                            unconsciously</p>
-                    </div>
-                    <div class="col-md-6 col">
-                        <!-- map -->
-                        {{-- <div class="map">
-                            <div id="googleMap-"></div>
-                        </div> --}}
-                        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=lahore&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
-                        <!--/map-->
-
-                    </div>
-                    <div class="col-md-6">
-                        <form>
-                            <input type="text" class="form-control" placeholder="Name">
-                            <input type="text" class="form-control" placeholder="Email">
-                            <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                            <button class="btn btn-default" type="submit">SEND</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
     </div>
 @endsection

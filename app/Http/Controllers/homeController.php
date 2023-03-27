@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth',['except' => ['getBlog','apply_as_techie']]);
     }
 
     /**
@@ -24,5 +24,13 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+    public function getBlog()
+    {
+        return view('blog');
+    }
+    public function apply_as_techie()
+    {
+        return view('apply_as_techie');
     }
 }

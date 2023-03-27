@@ -15,7 +15,8 @@ Auth::routes();
 Route::get('/', function () {
     return view('welcome');
 });
-// Route::get('/','homeController@index')->name('home');
+Route::get('blog','homeController@getBlog')->name('getBlog');
+Route::get('apply_as_techie','homeController@apply_as_techie')->name('apply_as_techie');
 
 
 
