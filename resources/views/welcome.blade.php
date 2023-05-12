@@ -203,7 +203,7 @@
                 </div>
             </div>
         </section>
-        {{-- <section id="play-video">
+        <!-- <section id="play-video">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -219,7 +219,7 @@
                     </div>
                 </div>
             </div>
-        </section> --}}
+        </section> -->
         <section id="team">
             <div class="container">
                 <div class="row">
@@ -270,7 +270,7 @@
                 </div>
             </div>
         </section>
-        {{-- <section id="pricing-table">
+        <!-- <section id="pricing-table">
             <div class="container">
                 <div class="row">
                     <div class="title">
@@ -372,8 +372,8 @@
                     </div>
                 </div>
             </div>
-        </section> --}}
-        {{-- <section id="blog">
+        </section> -->
+        <!-- <section id="blog">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -469,8 +469,8 @@
                     </div>
                 </div>
             </div>
-        </section> --}}
-        <section id="testimonial">
+        </section> -->
+        <!-- <section id="testimonial">
             <div class="container">
                 <div class="row">
                     <div class="title">
@@ -551,7 +551,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section id="client-logo">
             <div class="container">
                 <div class="row">
@@ -612,6 +612,6 @@
                 </div>
             </div>
         </section>
-        
+
     </div>
 @endsection

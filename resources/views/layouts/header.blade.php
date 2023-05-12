@@ -58,11 +58,11 @@
 					<li><a href="#features">Service</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#team">Team</a></li>
-					<li><a href="#pricing-table">Price</a></li>
-					<li><a href="#blog">Blog</a></li>
-					<li><a href="#testimonial">Testimonial</a></li>
+					{{-- <li><a href="#pricing-table">Price</a></li> --}}
+					{{-- <li><a href="#blog">Blog</a></li> --}}
+					{{-- <li><a href="#testimonial">Testimonial</a></li> --}}
 					<li><a href="#contact-form">Contact</a></li>
-                    @guest
+                    {{-- @guest
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
@@ -89,7 +89,7 @@
                                 </form>
                             </div>
                         </li>
-                    @endguest
+                    @endguest --}}
 				</ul>
 			</nav>
 			<!-- /main nav -->
