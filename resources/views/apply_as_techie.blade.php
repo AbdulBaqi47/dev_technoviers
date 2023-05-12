@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Error 404 - Page Not Found!</title>
     <link rel="stylesheet" type="text/css" href="{{url('css/style.css')}}" />
-    <!-- <link href="img/favicon.png" rel="shortcut icon" type="image/x-icon" /> -->
+    <link rel="icon" href="{{url('img/new-titleicon.png')}}" type="image/png" />
     <style>
         img {
             height: 50%;
